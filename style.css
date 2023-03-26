@@ -2,6 +2,9 @@
     padding: 0px;
     margin: 0px;
 }
+html{
+    scroll-behavior: smooth;
+}
 /*nav bar*/
 li{
     display: inline;
@@ -187,3 +190,25 @@ ul{
     color: white;
     padding-left: 200px;
 }
+.about-a{
+    background-image: url(img/anime\ bg2.jpg );
+    padding-bottom: 500px;
+   
+}
+.about-a h1{
+    float: left;
+    color: white;
+    font-size: 40px;
+    margin-left: 20%;
+    margin-top: 100px;
+}
+.about-a p{
+    font-size: 20px;
+    float: left;
+    color: white;
+    margin-left: -15%;
+    margin-top: 185px;
+    width: 500px;
+}
+
+   
