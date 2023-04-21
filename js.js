@@ -1,15 +1,21 @@
-const btn=document.querySelector('.butn');
-const thrill=document.querySelectorall('.seriespic1');
-btn.addEventListener('click',function(e){
-    if(e.target.tagName=="BUTTON"){
-        const tp=document.querySelector(e.target.dataset.target);
-        thrill.forEach(function(seriespic1){
-            if(seriespic1==tp){
-                seriespic1.classList.add('active');
-            }
-            else{
-                seriespic1.classList.remove('active');
-            }
-        })
-    }
-})
+var images = [];
+
+images[0] = ['./img/ant.jpg'];
+images[1] = ['./img/avatar.jpg'];
+images[2] = ['./img/jw4.jpg'];
+images[3] = ['./img/pathu.jpg'];
+images[4] = ['./img/viduthala.jpg'];
+var index = 0;
+
+function change() {
+  document.getElementById("mainPhoto").src = images[index];
+  if (index == 4) {
+    index = 0;
+  } else {
+    index++;
+  }
+
+  setTimeout(change, 3000);
+}
+
+window.onload = change();
