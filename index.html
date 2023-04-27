@@ -2,17 +2,17 @@
     <head>
         <title>Kira prime</title>
         <link href="style.css" rel="stylesheet">
-        
+        <script src="https://kit.fontawesome.com/f144e521ca.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <!--nav bar-->
         <ul>
-            <li style="float: left; margin-left: 50px;font-weight: bolder;">KIRA PRIME</li>
-            <li><a href="#" class="su" style="color: rgb(12, 12, 43);">SIGN UP</a></li>
-            <li><a href="#" class="si">SIGN IN</a></li>
+            <li style="float: left; margin-left: 50px;font-weight: bolder;"><span style="color: greenyellow;">KIRA </span>PRIME</li>
+            <li><a href="##" class="su" style="color: rgb(12, 12, 43);">SIGN UP</a></li>
+            <li><a href="##" class="si">SIGN IN</a></li>
             <li><a href="#anime">Anime</a></li>
             <li><a href="#series">Series</a></li>
-            <li><a href="#">Home</a></li>
+            <li><a href="#movies">Movies</a></li>
         </ul><hr>
         <!--header-->
         <div class="header">
@@ -27,10 +27,10 @@
             <img id="mainPhoto">
             <div class="mainSlider">
               <img src="./img/ant.jpg" style="display: none">
-              <img src="./img/avatar.jpg" style="display: none">
+              <img src="./img/avatar.jfif" style="display: none">
               <img src="./img/jw4.jpg" style="display: none">
-              <img src="./img/pathu.jpg" style="display: none">
-              <img src="./img/viduthala.jpg" style="display: none">
+              <img src="./img/Dr_Strang.jfif" style="display: none">
+              <img src="./img/shazam.jfif" style="display: none">
             </div>
         <h1>Enjoy The New Movies</h1>
         <p style="color: white;margin-left: 50%;margin-right: 150px;margin-top:50px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis excepturi velit recusandae doloremque ab quam corporis odit ut, accusantium eligendi reprehenderit quas esse neque dolor tenetur modi dolores. Eveniet, quasi!.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
@@ -39,11 +39,11 @@
         <div class="geners" id="movies">
             <h1>Browse Geners</h1><br><br>
             <div class="movie-pic">
-                <span class="adv"><a href=""><img src="./img/advan.jpg"></a></span>
-                <a href=""><img src="./img/love1.jpg"></a>
-                <a href=""><img src="./img/action"></a>
-                <a href=""><img src="./img/sci.jpg"></a>
-                <a href=""><img src="./img/drama.jpeg"></a>
+                <span class="adv"><a href="##"><img src="./img/advan.jpg"></a></span>
+                <a href="##"><img src="./img/love1.jpg"></a>
+                <a href="##"><img src="./img/action"></a>
+                <a href="##"><img src="./img/sci.jpg"></a>
+                <a href="##"><img src="./img/drama.jpeg"></a>
             </div>
             <div class="movie-title">
                 <h3>Advanture</h3>
@@ -54,17 +54,37 @@
             </div>
         </div>
         <!--about series-->
-       
+        <div class="s-about"><br><br><br><br><br>
+            <img id="mainPhoto1">
+            <div class="mainSlider1">
+              <img src="./img/wednesday.webp" style="display: none">
+              <img src="./img/alice.jfif" style="display: none">
+              <img src="./img/loki.jfif" style="display: none">
+              <img src="./img/SHERLOCK.jfif" style="display: none">
+              <img src="./img/aoud.png" style="display: none">
+            </div>
+        <h1>Enjoy The New Series</h1>
+        <p style="color: white;margin-right:50%;margin-left: 150px;margin-top:50px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis excepturi velit recusandae doloremque ab quam corporis odit ut, accusantium eligendi reprehenderit quas esse neque dolor tenetur modi dolores. Eveniet, quasi!.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+        </div>
         <!--series-->
         <div class="series" id="series">
             <h1>Series</h1>
-            <button style="margin-left: 14%; border: 2px solid rgb(188, 255, 53); color: rgb(188, 255, 53);">Action</button>
-            <span class="btn"><button>Thriller</button>
-            <button>Sci-fi</button></span>
-            <div class="seriespic">
-                <a href=""><img src="./img/moneyheist.jpg"></a>
-                <a href=""><img src="./img/the boys"></a>
-                <a href=""><img src="./img/moon.png"></a>
+            <div class="tabs">
+            <button data-target="#action" class="active">Action</button>
+            <button data-target="#thriller" class="btn">Thriller</button>
+            <button data-target="#sci" class="btn">Sci-fi</button></div>
+            <div class="panel active" id="action">
+                <a href="##"><img src="./img/moneyheist.jpg"></a>
+                <a href="##"><img src="./img/the boys"></a>
+                <a href="##"><img src="./img/moon.png"></a>
+                <h3>Money Heist</h3>
+                <h3 style="margin-left: 10%;">The Boys</h3>
+                <h3 style="margin-left: 10%;">Moon Knight</h3>
+            </div>
+            <div class="panel" id="thriller">
+                <a href="##"><img src="./img/avatar.jfif"></a>
+                <a href="##"><img src="./img/Dr_Strang.jfif"></a>
+                <a href="##"><img src="./img/loki.jfif"></a>
                 <h3>Money Heist</h3>
                 <h3 style="margin-left: 10%;">The Boys</h3>
                 <h3 style="margin-left: 10%;">Moon Knight</h3>
@@ -77,21 +97,50 @@
         <!--anime-->   
             <div class="anime">
                 <h1>Browse Anime</h1> 
-                <div class="a-pic">
-                    <span class="ds"><a href=""><img src="./img/demon slayer.jfif"></a></span>
-                    <a href=""><img src="./img/death note.8in"></a>
-                    <a href=""><img src="./img/aot.jfif"></a>
-                    <a href=""><img src="./img/naruto.jfif"></a>
-                    <a href=""><img src="./img/𝐓𝐨𝐤𝐲𝐨 𝐑𝐞𝐯𝐞𝐧𝐠𝐞𝐫𝐬 ༉‧₊˚_.jfif"></a>
+                <div id="a-pic">
+                    <span class="ds"><a href="##"><img src="./img/demon slayer.jfif"></a></span>
+                    <a href="##"><img src="./img/death note.8in"></a>
+                    <a href="##"><img src="./img/aot.jfif"></a>
+                    <a href="##"><img src="./img/naruto.jfif"></a>
+                    <a href="##"><img src="./img/𝐓𝐨𝐤𝐲𝐨 𝐑𝐞𝐯𝐞𝐧𝐠𝐞𝐫𝐬 ༉‧₊˚_.jfif"></a>
+                    <div class="a-title">
+                        <h3>Demon Slayer</h3>
+                        <h3>Death Note</h3>
+                        <h3>Attack on Titan</h3>
+                        <h3>Naruto</h3>
+                        <h3>Tokyo Revengers</h3>
+                    </div>
+                    <span class="ds"><a href="##"><img src="./img/bleach.jfif"></a></span>
+                    <a href="##"><img src="./img/goku.jfif"></a>
+                    <a href="##"><img src="./img/jujutsu.jfif"></a>
+                    <a href="##"><img src="./img/one piece.jfif"></a>
+                    <a href="##"><img src="./img/One Punch Man.jfif"></a>
+                    <div class="a-title">
+                        <h3 style="margin-left: 160px;">Bleach</h3>
+                        <h3 style="margin-left: 170px;">Dragon Ball</h3>
+                        <h3 style="margin-left: 130px;">jujutsu Kaisen</h3>
+                        <h3>One piece</h3>
+                        <h3>One punch man</h3>
+                    </div>
                 </div>
-                <div class="a-title">
-                    <h3>Demon Slayer</h3>
-                    <h3>Death Note</h3>
-                    <h3>Attack on Titan</h3>
-                    <h3>Naruto</h3>
-                    <h3>Tokyo Revengers</h3>
-                </div>
+                <button id="button"> 
+                    <span id="sm">Show More</span>
+                    <svg viewBox="-5 -5 110 110" preserveAspectRatio="none" aria-hidden="true">
+                      <path d="M0,0 C0,0 100,0 100,0 C100,0 100,100 100,100 C100,100 0,100 0,100 C0,100 0,0 0,0"/>
+                    </svg>
+                  </button>
             </div>
+            <hr>
+            <!--footer-->
+            <footer>
+                <h2><span style="color: greenyellow;">KIRA  </span>PRIME</h2>
+                <a href="##"><p id="st">Terms and Privacy Notice</p></a>
+                <a href="##"><p>Send us feedback</p></a>
+                <a href="##"><p>Help</p></a>
+                <h4>©2023,KiraPrime.com, Created by Santhosh</h4>
+                <i id="ist" class="fa-brands fa-google-play"><span style="color: white;"> Play Store</span></i>
+                <i class="fa-brands fa-apple"><span style="color: white;"> App Store</span></i>
+            </footer>
             <script src="js.js"></script>
     </body>
 </html>
