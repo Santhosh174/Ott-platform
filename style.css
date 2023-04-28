@@ -100,6 +100,10 @@ ul{
 .geners{
     background-color: rgb(12, 12, 43);
 }
+.geners i{
+    color: #08e600;
+    margin-left: 10%;
+}
 .geners h1{
     color: white;
     font-weight: bolder;
@@ -169,8 +173,11 @@ ul{
     font-size: 45px;
     margin-left: 14%;
 }
+.tabs{
+    margin-left: 14%;
+}
 .series button.active{
-    margin-left: 14%; border: 2px solid rgb(188, 255, 53); color: rgb(188, 255, 53);
+     border: 2px solid rgb(188, 255, 53); color: rgb(188, 255, 53);
 }
 .series button{
     margin-top: 30px;
@@ -182,7 +189,7 @@ ul{
     background-color: rgb(12, 12, 43);
     cursor: pointer;
 }
-.series button.btn:hover{
+.series button:hover{
     border: 2px solid white;
     color: white;
 }
@@ -364,7 +371,7 @@ footer h4{
     margin-left: 40%;
     margin-top: 20px;
 }
-i{
+footer i{
     color: #08e600;
     margin-left: 30px;
     margin-top: 5px;

@@ -69,3 +69,24 @@ tabs.addEventListener("click",function(e){
       })
     }
 });
+
+var bt1=document.getElementById('btn1');
+var bt2=document.getElementById('btn2');
+var bt3=document.getElementById('btn3');
+tabs.addEventListener("click",function(e){
+  if(e.target==bt1){
+    bt1.classList.add('active');
+    bt2.classList.remove('active');
+    bt3.classList.remove('active');
+  
+  }
+  else if(e.target==bt2){
+    bt2.classList.add('active');
+    bt1.classList.remove('active');
+    bt3.classList.remove('active');
+  }else{
+    bt3.classList.add('active');
+    bt1.classList.remove('active');
+    bt2.classList.remove('active');
+  }
+});
